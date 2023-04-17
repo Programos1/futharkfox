@@ -1,0 +1,110 @@
+body {
+    color: #282425;
+    background-color: #fff1e6;
+    line-height: 1,6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+color: #756158;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    color: #756158;
+    text-shadow: 0 3px 10px #282425;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+a {
+    font-weight: bold;
+}
+
+.fotoomne {
+float: left;
+width: 80px;
+border-radius: 50%;
+margin-right: 15px;
+}
+
+
+.fotogumbalkan {
+    width: 60%;
+    border-radius: 30%;
+    margin: 0 20%;
+}
+
+.fotoairsoft {
+    width: 300px;
+    border-radius: 0 50px 50px 50px;
+    float: left;
+    margin-right: 20px;
+}
+
+.fotografovani img {
+    width: 30%;
+    border: 2px solid #756158;
+}
+
+.fotografovani,
+.airsoft {
+    background-color: #f9e3d0;
+}
+
+footer {
+    background-color: #382e30;
+    color: #fff1e6;
+    text-align: center;
+    padding: 5px 0;
+}
+
+section {
+    padding: 50px 10%;
+    overflow: auto;
+}
+
+header {
+    background-image: url(obrazky/uvodnifoto.jpeg);
+    padding: 150px 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    background-color: #382e30;
+    text-align: center;
+    color: white;
+
+}
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 35px;
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #756158;
+}
